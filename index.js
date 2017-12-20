@@ -22,7 +22,3 @@ kittens.pop(0, kittens.length - 1)
 return destructivelyRemoveLastKitten
 }
 
-function destructivelyRemoveFirstKitten() {
-kittens.pop(-0)
-return destructivelyRemoveFirstKitten
-}
